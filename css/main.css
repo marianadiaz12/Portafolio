@@ -22,8 +22,8 @@ nav.navbar {
 }
 
 .fotomia{
-	width: 70%;
-	height: 70%;
+	width: 60%;
+	height: 60%;
 	box-shadow: 6px 4px 10px #999;
 }
 
@@ -51,6 +51,14 @@ nav.navbar {
 /*Margins*/
 .mrg-top-2{
 	margin-top:5%; 
+}
+
+.proyectos{
+	font-size: 1em !important;
+}
+
+.section{
+	padding: 5%;
 }
 
 @media screen and (max-width: 767px) {
