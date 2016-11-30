@@ -18,35 +18,37 @@ h2{
 	font-size: 2em;
 	color: white;
 }
-.titulos{
-	font-size: 2em;
-	color: white;
+.desarrolladora{
+	margin-bottom: 10%;
 }
+
 /*Estilo al navegador*/
 nav.navbar {
     background-color: #000;
 }
 
 .fotomia{
-	width: 60%;
-	height: 60%;
+	width: 70%;
+	height: 70%;
 	box-shadow: 6px 4px 10px #999;
 }
 
-.img{
-	border-radius: 10px;
-}
-.proyectos {
+.proyecto {
 -webkit-filter: hue-rotate(20deg);
+}
+.proyecto3{
+
+-webkit-filter: grayscale(40%);
+
+}
+.sub-proyectos{
+	font-size: 1.4em;
 }
 .backseccion{
 		background-color:#e74c3c;
 		padding: 5%;
 		margin-top: 5%;
 		color: white;
-}
-.habilidades{
-	display: inline-block;
 }
 
 /*Footer*/
@@ -55,7 +57,13 @@ nav.navbar {
 	background-color: #000;
 	color: white;
 }
-
+.icon-contacto{
+	width: 70%;
+	height: 70%;
+}
+.correo{
+	font-size: 1.5em;
+}
 /*Margins*/
 .mrg-top-2{
 	margin-top:5%; 
@@ -76,20 +84,34 @@ nav.navbar {
 .pad{
 	padding: 0% 4% 1% 4% !important;
 }
+.progress{
+	border: 1px solid #000;
+}
+.contacto{
+	margin-top: 10%
+}
 
 @media screen and (max-width: 767px) {
     .nombre{
     	font-size: 2em;
     }
+    .fotomia{
+	width: 100%;
+	height: 100%;
+	box-shadow: 6px 4px 10px #999;
+}
     .desarrolladora{
     	font-size: 1em;
     }
+    .midescripcion{
+		font-size: 0.8em;
+	}
     .sobremi{
     	margin-top: 8%;
     }
     .border{
 	border: none;
-}
+	}
     .img{
     	width: 70% !important;
     	height: 70% !important;
@@ -101,4 +123,23 @@ nav.navbar {
     	width: 100%;
     	height: 100%;
     }
+    .correo{
+	font-size: 0.8em;
+}
+	.frase{
+		font-size: 1em;
+		margin: 5%;
+	}
+	.nom-proyectos{
+		font-size: 1em !important;
+	}
+	.subtitulos{
+		font-size: 2em !important;
+	}
+	.contacto{
+	margin-top: 25%;
+	}
+	.sub-proyectos{
+	font-size: 1em;
+	}
 }
