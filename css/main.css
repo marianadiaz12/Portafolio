@@ -26,6 +26,21 @@ h2{
 nav.navbar {
     background-color: #000;
 }
+.navbar {
+  font-size: 1.4rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem; }
+
+.navbar-collapse {
+  overflow: hidden; }
+
+
+  .navbar-inverse .navbar-nav > li > a {
+    background-color: blue; }
+
+ .navbar-fixed-top{
+ 	margin-bottom: 8% !important;
+ }
 
 .fotomia{
 	width: 70%;
@@ -58,8 +73,8 @@ nav.navbar {
 	color: white;
 }
 .icon-contacto{
-	width: 70%;
-	height: 70%;
+	width: 50%;
+	height: 50%;
 }
 .correo{
 	font-size: 1.5em;
@@ -76,11 +91,6 @@ nav.navbar {
 .section{
 	padding: 5%;
 }
-
-.border{
-	border-left: 3px dashed #e74c3c;
-	height: 250px;
-}
 .pad{
 	padding: 0% 4% 1% 4% !important;
 }
@@ -90,7 +100,9 @@ nav.navbar {
 .contacto{
 	margin-top: 10%
 }
-
+.subtitulos{
+	margin-top: 7%;
+}
 @media screen and (max-width: 767px) {
     .nombre{
     	font-size: 2em;
@@ -111,6 +123,8 @@ nav.navbar {
     }
     .border{
 	border: none;
+	height: none;
+
 	}
     .img{
     	width: 70% !important;
@@ -128,7 +142,7 @@ nav.navbar {
 }
 	.frase{
 		font-size: 1em;
-		margin: 5%;
+		margin-top: 0%;
 	}
 	.nom-proyectos{
 		font-size: 1em !important;
@@ -137,9 +151,15 @@ nav.navbar {
 		font-size: 2em !important;
 	}
 	.contacto{
-	margin-top: 25%;
+	margin-top: 15%;
+	font-size: 2.4em !important;
 	}
 	.sub-proyectos{
 	font-size: 1em;
 	}
+	.icon-contacto{
+	width: 30%;
+	height: 30%;
+	margin-top: 10%;
+}
 }
