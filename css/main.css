@@ -26,19 +26,7 @@ h2{
 nav.navbar {
     background-color: #000;
 }
-.navbar {
-  font-size: 1.4rem;
-  padding-top: 1rem;
-  padding-bottom: 1.5rem; }
-
-.navbar-collapse {
-  overflow: hidden; }
-
-
-  .navbar-inverse .navbar-nav > li > a {
-    background-color: blue; }
-
- .navbar-fixed-top{
+.navbar-fixed-top{
  	margin-bottom: 8% !important;
  }
 
