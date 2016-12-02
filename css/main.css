@@ -27,7 +27,7 @@ nav.navbar {
     background-color: #000;
 }
 .navbar-fixed-top{
- 	margin-bottom: 8% !important;
+ 	margin-bottom: 10% !important;
  }
 
 .fotomia{
@@ -67,11 +67,6 @@ nav.navbar {
 .correo{
 	font-size: 1.5em;
 }
-/*Margins*/
-.mrg-top-2{
-	margin-top:5%; 
-}
-
 .proyectos{
 	font-size: 1em !important;
 }
@@ -89,7 +84,7 @@ nav.navbar {
 	margin-top: 10%
 }
 .subtitulos{
-	margin-top: 7%;
+	margin-top: 8%;
 }
 @media screen and (max-width: 767px) {
     .nombre{

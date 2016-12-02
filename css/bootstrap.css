@@ -1167,6 +1167,7 @@ hr {
   margin: 0;
   overflow: visible;
   clip: auto;
+  background-color: red;
 }
 [role="button"] {
   cursor: pointer;
